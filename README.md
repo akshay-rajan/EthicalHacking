@@ -1,7 +1,7 @@
 # Ethical Hacking
 
 > Locating vulnerabilities and weaknesses of computer and information systems by replicating the intent and actions of malicious hackers
-> Penetration testing, Red Teaming etc. are other terms
+> Penetration testing, Red Teaming etc. are other terms for EH.
 
 - **Penetration Test**: Legal attempt to break into a company's network. Pentester only report findings, and does not provide solutions.
 - **Security Test**: Includes analyzing company's security policies and principles, and offering solutions, along with Penetration Testing.
@@ -40,3 +40,28 @@ Overview
 - Unconventional attacks
 - Demonstration of Tools
 ```
+
+## Networking
+
+> A chain of computers / hosts connected together for communication.
+
+### Data Communication
+
+1. **Circuit Switching**: Establishing a dedicated path for each communication.
+    1. Connection Establishment
+    2. Data Transfer
+    3. Connection Termination
+2. **Packet Switching**: All communication links are shared between devices. Data is transmitted as *packets*.
+    - *Store and Forward*: Each intermediate recieves the packet, decides the route and forwards the packet.
+
+### Data Transmission
+
+1. **Virtual Circuits**: Similar to circuit switching, where a route is established before transmission. e.g. *Telephone* system.
+2. **Datagram**: Each packet is transmitted as an independent entity. Every intermediate node makes dynamic routing decisions.
+    - A *Routing Table* is used to determine the optimal path of each packet.
+
+### Delays
+
+- Propagation Delay: Time taken by a data signal to propagate from one node to the next.
+- Transmission Delay: Time taken to send out a packet. Depends on the bandwidth of the link.
+- Processing Delay: Time taken by a node to process a package.
