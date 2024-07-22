@@ -65,3 +65,28 @@ Overview
 - Propagation Delay: Time taken by a data signal to propagate from one node to the next.
 - Transmission Delay: Time taken to send out a packet. Depends on the bandwidth of the link.
 - Processing Delay: Time taken by a node to process a package.
+
+### ISO OSI Model
+
+**Open Systems Interconnection** model is a network architechture in which the network is partitioned into 7 layers:
+```
+1. Application          -   HOST-TO-HOST
+2. Presentation         |   Only exists in the
+3. Session              |   source and destination
+4. Transport            -
+5. Network              -   POINT-TO-POINT
+6. Data Link            |   Active in every node
+7. Physical             -
+```
+
+1. Physical Layer: Transfer of **Bits** over a physical medium.
+2. Data Link Layer: Ensures the reliable transfer of **Frames** from point-to-point.
+3. Network Layer: Establish, maintain and terminate connections, Routes **Packets**.
+4. Transport Layer: End-to-end reliable data transfer, with error recovery and flow control.
+5. Session Layer: Management of sessions.
+6. Presentation Layer: Encryption and other features.
+7. Application Layer: Entry point for user applications.
+
+![alt text](dataflow.png)
+
+
